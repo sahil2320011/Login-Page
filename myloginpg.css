@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background-image: url('pexels-pixabay-417054.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    color:aliceblue;
+    position:absolute;
+    top:15%;
+    left:17%;
+}
+
+.container h1{
+    font-family: 'Goblin One', cursive;
+    font-size:40px;
+    border-bottom:5px solid rgb(192, 60, 60);
+    margin-bottom:40px;
+    padding:13px 0px;
+    text-align: center;
+}
+
+.box{
+    width:100%;
+    border-radius:10px;
+    color: white;
+}
+
+i{
+    width:35px;
+    float:center;
+    text-align:center;
+    padding:10px;
+}
+
+.box input{
+    font-family: 'Goblin One', cursive;
+    background: none;
+    width:75%;
+    border:none;
+    outline:none;
+    font-size:25px;
+    margin:10px;
+    padding:10px 0px;
+    color:rgb(255, 255, 255);
+    border-bottom:3px solid rgb(192, 60, 60);
+}
+
+.btn{
+    font-family: 'Goblin One', cursive;
+    border:solid 2px;;
+    background: none;
+    cursor:pointer;
+    outline:none;
+    width:25%;
+    margin:12px 0px;
+    padding:6px;
+    margin: 5px 165px;
+    color:white;
+    font-size:20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-color: rgb(192, 60, 60);
+}
+
+.btn:hover{
+    opacity: 0.5;
+    background:rgb(255, 255, 255);
+    color:rgb(192, 60, 60);
+}
